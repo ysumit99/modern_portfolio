@@ -71,7 +71,7 @@
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
-    font-weight: 300px;
+    font-weight: 300;
     color: #fff;
     text-decoration: none;
     transition: all 0.5s ease-out; }
@@ -144,7 +144,7 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 60vh); }
+  min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -170,9 +170,9 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
-  .about-info .job1 {
+  .about-info .job-1 {
     grid-area: job1; }
-  .about-info .job2 {
+  .about-info .job-2 {
     grid-area: job2; }
   .about-info .job {
     background: #515151;
